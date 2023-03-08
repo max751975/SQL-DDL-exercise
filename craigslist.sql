@@ -62,5 +62,6 @@ VALUES
 ('Moving help', 'need 2 people to help with truck loading', 2, 3, 1, 'Sacramento','1-15-2023'),
 ('Toyota', '2018 Toyota for sale', 3, 3, 2, 'Houston','2-20-2023');
 
--- select username, posts.title, posts.text as post, regions.name as region, location from posts join
--- regions on posts.region_id = regions.id join users on user_id = users.id where user_id = 3;
+-- SELECT username, posts.title, posts.text AS post, regions.name AS region, location FROM posts
+-- JOIN regions ON posts.region_id = regions.id
+-- JOIN users ON user_id = users.id WHERE user_id = 3;
